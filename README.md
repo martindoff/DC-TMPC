@@ -1,2 +1,137 @@
-# DC-TMPC
-DC-TMPC: A tube-based MPC algorithm for systems that can be expressed as a difference of convex functions.
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+   <img src="https://github.com/martindoff/DC-TMPC/plot/tmpc4.png" alt="Logo" width="300" height="300">
+
+  <h3 align="center">DC-TMPC trajectory convergence</h3>
+
+  <p align="center">
+   DC-TMPC: A tube-based MPC algorithm for systems that can be expressed as a difference of convex functions. 
+    <br />
+    
+  </p>
+  
+  
+</p>
+
+
+
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
+
+
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+
+DC-TMPC: A tube-based MPC algorithm for systems that can be expressed as a difference of convex functions. 
+
+### Built With
+
+* Python
+* CVX
+* Mosek
+
+
+
+<!-- GETTING STARTED -->
+## Getting Started
+
+
+### Prerequisites
+
+You need to install the following:
+* numpy
+* scipy
+* matplotlib
+* [cvxpy](https://www.cvxpy.org/install/index.html)
+* [mosek](https://www.mosek.com/downloads/)
+
+Run the following command to install all modules at once
+
+   ```sh
+   pip3 install numpy scipy matplotlib cvxpy mosek
+   ```
+
+In order to use mosek, you will need a license. Look [here] (https://www.mosek.com/products/academic-licenses/) to set it up. 
+
+### Installation
+
+1. Clone the repository
+   ```sh
+   git clone https://github.com/martindoff/DC-TMPC.git
+   ```
+2. Go to directory 
+   ```sh
+   cd DC-TMPC-master
+   ```
+3. Run the program
+   ```sh
+   python3 main.py
+   ```
+
+<!-- ROADMAP -->
+## Roadmap
+
+
+<!-- CONTRIBUTING -->
+## Contributing
+
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+<!-- CONTACT -->
+## Contact
+
+Martin Doff-Sotta - martin.doff-sotta@eng.ox.ac.uk
+
+Linkedin: https://www.linkedin.com/in/mdoffsotta/
+
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo.svg?style=for-the-badge
+[contributors-url]: https://github.com/github_username/repo/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/github_username/repo.svg?style=for-the-badge
+[forks-url]: https://github.com/github_username/repo/network/members
+[stars-shield]: https://img.shields.io/github/stars/github_username/repo.svg?style=for-the-badge
+[stars-url]: https://github.com/github_username/repo/stargazers
+[issues-shield]: https://img.shields.io/github/issues/github_username/repo.svg?style=for-the-badge
+[issues-url]: https://github.com/github_username/repo/issues
+[license-shield]: https://img.shields.io/github/license/github_username/repo.svg?style=for-the-badge
+[license-url]: https://github.com/github_username/repo/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/github_username
