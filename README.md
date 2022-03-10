@@ -1,17 +1,11 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-   <img src="https://github.com/martindoff/DC-TMPC/plot/tmpc4.png" alt="Logo" width="300" height="300">
-
-  <h3 align="center">DC-TMPC trajectory convergence</h3>
-
+   <img src="https://github.com/martindoff/DC-TMPC/tree/master/plot/tmpc4.png" alt="Logo" width="300" height="300">
   <p align="center">
    DC-TMPC: A tube-based MPC algorithm for systems that can be expressed as a difference of convex functions. 
-    <br />
-    
+    <br />  
   </p>
-  
-  
 </p>
 
 
@@ -34,7 +28,6 @@
       </ul>
     </li>
     <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
@@ -44,11 +37,18 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-DC-TMPC: A tube-based MPC algorithm for systems that can be expressed as a difference of convex functions. 
+Developed at the University of Oxford, DC-TMPC is a novel robust tube-based nonlinear model 
+predictive control paradigm for nonlinear systems whose dynamics can be expressed as a difference of convex functions. 
+The approach relies on successively perturbing the system predicted trajectories and bounding
+the linearisation error by exploiting convexity of the system dynamics. The linearisation error is then treated as a
+disturbance of the perturbed system to construct robust tubes containing the predicted trajectories, enabling the
+robust nonlinear MPC optimisation to be performed in real time as a sequence of convex optimisation programs. 
+
+The present implementation involves regulating a coupled tank whose dynamics can be represented as a difference of convex functions. 
 
 ### Built With
 
-* Python
+* Python 3
 * CVX
 * Mosek
 
@@ -104,13 +104,6 @@ Contributions are what make the open source community such an amazing place to b
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
-
-
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
 
 <!-- CONTACT -->
 ## Contact
