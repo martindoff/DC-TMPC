@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-   <img src="https://github.com/martindoff/DC-TMPC/tree/master/plot/tmpc-traj.jpg" alt="Logo" width="300" height="300">
+   <img src="https://github.com/martindoff/DC-TMPC/blob/master/plot/tmpc-traj.jpg" alt="Logo" width="300" height="300">
   <p align="center">
    DC-TMPC: A tube-based MPC algorithm for systems that can be expressed as a difference of convex functions. 
     <br />  
