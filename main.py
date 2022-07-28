@@ -7,8 +7,8 @@ dh1/dt  = -A1/A sqrt(2g h1) + k/A u
 dh2/dt  = A1/A sqrt(2g h1) - A2/A sqrt(2g h2)
 
 This program computes a control law to robustly stabilise a water tank system according to
-the DC-TMPC algorithm in the paper: 'DC-TMPC: Robust nonlinear tube-based MPC for systems 
-with convex-concave dynamics' by Martin Doff-Sotta and Mark Cannon. 
+the DC-TMPC algorithm in the paper: 'Difference of convex functions in robust tube
+nonlinear MPC' by Martin Doff-Sotta and Mark Cannon. 
 
 (c) Martin Doff-Sotta, University of Oxford (martin.doff-sotta@eng.ox.ac.uk)
 
