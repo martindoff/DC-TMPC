@@ -42,7 +42,10 @@ predictive control paradigm for nonlinear systems whose dynamics can be expresse
 The approach relies on successively perturbing the system predicted trajectories and bounding
 the linearisation error by exploiting convexity of the system dynamics. The linearisation error is then treated as a
 disturbance of the perturbed system to construct robust tubes containing the predicted trajectories, enabling the
-robust nonlinear MPC optimisation to be performed in real time as a sequence of convex optimisation programs. 
+robust nonlinear MPC optimisation to be performed in real time as a sequence of convex optimisation programs.
+
+The DC-TMPC algorithm was presented at the 61th IEEE Conference on Decision and Control, Cancun, Mexico, and the theoretical details
+can be found in the paper 'Difference of convex functions in robust tube nonlinear MPC' by Martin Doff-Sotta and Mark Cannon. 
 
 The present implementation involves regulating a coupled tank whose dynamics can be represented as a difference of convex functions. 
 
